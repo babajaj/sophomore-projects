@@ -1,0 +1,7 @@
+INPUT
+map data/maps/smallMaps.sqlite3
+ways 41.824 -71.4128 41.826 -71.4130
+OUTPUT
+map set to data/maps/smallMaps.sqlite3
+ERROR: the first point (lat1, lon1) must be to the north-west of the second point (lat2, lon2).
+END

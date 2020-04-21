@@ -1,0 +1,9 @@
+INPUT
+map data/maps/smallMaps.sqlite3
+nearest -50 -70
+nearest 80 -150
+OUTPUT
+map set to data/maps/smallMaps.sqlite3
+/n/0
+/n/5
+END

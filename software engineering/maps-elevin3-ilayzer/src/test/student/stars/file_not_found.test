@@ -1,0 +1,5 @@
+INPUT
+stars data/stars/fake-star.csv
+OUTPUT
+ERROR: File 'data/stars/fake-star.csv' not found.
+END

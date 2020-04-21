@@ -1,0 +1,7 @@
+INPUT
+mdb data/timdb/smallTimdb.sqlite3
+connect Will "Willow Smith"
+OUTPUT
+db set to data/timdb/smallTimdb.sqlite3
+ERROR: actor names must be in quotes.
+END

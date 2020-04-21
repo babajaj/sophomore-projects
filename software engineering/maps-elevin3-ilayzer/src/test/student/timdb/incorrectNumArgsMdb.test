@@ -1,0 +1,5 @@
+INPUT
+mdb
+OUTPUT
+ERROR: command 'mdb' expects 1 arguments, but found 0.
+END

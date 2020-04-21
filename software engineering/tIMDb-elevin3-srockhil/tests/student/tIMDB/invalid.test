@@ -1,0 +1,25 @@
+INPUT
+
+hi
+mdb
+connect
+mdb data/small.sqlite3
+mdb data/timdb/smallTimdb.sqlite3
+connect
+connect a b
+connect "apple" "orange"
+connect "Samuel L. Jackson" "orange"
+connect "Arnold Schwarzenegger" "Robert Downey Jr."
+OUTPUT
+ERROR: Please enter a command
+ERROR: Invalid command.
+ERROR: mdb takes one argument
+ERROR: must load a database before using search
+ERROR: this is not a file
+db set to data/timdb/smallTimdb.sqlite3
+ERROR: command must have 2 arguments
+ERROR: arguments must be two names surrounded by quotes
+ERROR: actor "apple" does not exist in the database
+ERROR: actor "orange" does not exist in the database
+Arnold Schwarzenegger -/- Robert Downey Jr.
+END

@@ -1,0 +1,14 @@
+INPUT
+nearest 40 -70
+map data/maps/smallMaps.sqlite3
+nearest 10 10 10
+nearest oops 10
+nearest 200 0 -400 0
+OUTPUT
+ERROR: must connect map data before using nearest.
+map set to data/maps/smallMaps.sqlite3
+ERROR: nearest: incorrect number of args. Usage: 'nearest <lat1> <lat2>'.
+ERROR: nearest: incorrect number of args. Usage: 'nearest <lat1> <lat2>'.
+ERROR: must input numbers for latitude and longitude.
+ERROR: inputted latitude or longitude is out of range latitude: (-90,90), longitude: (-180, 180).
+END

@@ -1,0 +1,7 @@
+INPUT
+stars data/stars/three-star.csv
+neighboars 1 "Proxima Centauri"
+OUTPUT
+Read 3 stars from data/stars/three-star.csv
+ERROR: 'neighboars' is not a command.
+END

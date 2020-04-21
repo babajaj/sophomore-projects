@@ -1,0 +1,7 @@
+INPUT
+stars data/stars/ten-star.csv
+neighbors 1
+OUTPUT
+Read 10 stars from data/stars/ten-star.csv
+ERROR: command 'neighbors' expects 2 or 4 arguments, but found 1.
+END

@@ -1,0 +1,50 @@
+#movieBody {
+
+    background-image: url(images/lion.gif);
+    background-size: 1500px;
+
+}
+
+#actorBody{
+    background-image: url(images/oscars.jpg);
+    background-size: 1800px;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-family: "American Typewriter"
+
+}
+#pageName{
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 2em auto;
+    width: 40%;
+}
+
+
+
+#listBox{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 24%;
+    margin: 0px auto;
+    padding: 1em;
+    border: dotted white 10px;
+
+}
+
+#listLink{
+    color: white;
+}
+
+
+#list{
+    color: linen;
+    border: 1em;
+    font-size: large;
+    font-family: "Bangla MN";
+}
+
+
+

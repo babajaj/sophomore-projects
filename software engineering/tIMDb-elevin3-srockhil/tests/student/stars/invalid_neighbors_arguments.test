@@ -1,0 +1,15 @@
+INPUT
+stars data/stars/tester-stars.csv
+neighbors a 0 0 0
+neighbors -1 0 0 0
+neighbors 5 a b c
+neighbors 5 "zero
+neighbors 5 "fake star"
+OUTPUT
+Read 17 stars from data/stars/tester-stars.csv
+ERROR: neighbors must be an integer
+ERROR: number of neighbors must be non-negative
+ERROR: coordinates be numeric
+ERROR: star name must be one or more characters surrounded by quotes
+ERROR: target star not found
+END

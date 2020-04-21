@@ -1,0 +1,13 @@
+INPUT
+ways 10 10 10 10
+map data/maps/smallMaps.sqlite3
+ways 10 10 10 10 10
+ways 10 oops 4 oops
+ways 400 0 -400 80
+OUTPUT
+ERROR: must connect map data before using ways.
+map set to data/maps/smallMaps.sqlite3
+ERROR: ways takes 4 arguments. Usage: ways <lat1> <lon1> <lat2> <lon2>.
+ERROR: must input numbers for latitude and longitude.
+ERROR: inputted latitude or longitude is out of range latitude: (-90,90), longitude: (-180, 180).
+END

@@ -1,0 +1,5 @@
+INPUT
+mdb data/timdb/improperFormat.db
+OUTPUT
+ERROR: Db specified at data/timdb/improperFormat.db was not formatted correctly. Try again.
+END

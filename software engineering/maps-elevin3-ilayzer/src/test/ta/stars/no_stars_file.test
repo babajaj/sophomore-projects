@@ -1,0 +1,5 @@
+INPUT
+stars 
+OUTPUT
+ERROR: command 'stars' expects 1 arguments, but found 0.
+END

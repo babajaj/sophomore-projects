@@ -1,0 +1,75 @@
+input[type="number"] {
+  width: 3em;
+}
+
+body {
+  background-image: url(images/stars-image.jpg);
+
+}
+
+#link {
+  color: linen;
+  font-size: medium;
+}
+h1 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "American Typewriter"
+
+}
+
+h2{
+  text-align: center;
+  font-family: Kefa
+ }
+
+.explanation{
+  text-align: center;
+  color: #ffffff;
+  font-family: Kefa;
+  font-size: large;
+}
+
+.instruction{
+  text-align: center;
+  font-family: Kefa
+}
+
+#text{
+  display: block;
+  margin-left: auto ;
+  margin-right: auto;
+}
+
+#button{
+  margin-top: 1em;
+  display: block;
+  margin-left: auto ;
+  margin-right: auto;
+}
+
+#div1{
+  background: rgba(255, 255, 255, 0.5);
+  width: 20%;
+  margin: 0px auto;
+
+}
+
+#output{
+  color: #ffffff;
+  margin-left: 10px;
+  font-family: Kefa;
+}
+
+#div2{
+  background: rgba(255, 255, 255, 0.5);
+  width: 60%;
+  margin: 0px auto;
+
+}
+
+#blackbox{
+  background: rgba(0, 0, 0, 0.7);
+}
+
+

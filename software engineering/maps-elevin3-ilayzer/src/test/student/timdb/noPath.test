@@ -1,0 +1,7 @@
+INPUT
+mdb data/timdb/smallTimdb.sqlite3
+connect "Topher Grace" "Will Smith"
+OUTPUT
+db set to data/timdb/smallTimdb.sqlite3
+Topher Grace -/- Will Smith
+END

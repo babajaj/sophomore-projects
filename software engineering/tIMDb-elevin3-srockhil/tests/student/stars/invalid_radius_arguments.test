@@ -1,0 +1,15 @@
+INPUT
+stars data/stars/tester-stars.csv
+radius a 0 0 0
+radius -1 0 0 0
+radius 5 a b c
+radius 5 "zero
+radius 5 "fake star"
+OUTPUT
+Read 17 stars from data/stars/tester-stars.csv
+ERROR: radius must be a parsable double
+ERROR: radius be non-negative
+ERROR: coordinates be numeric
+ERROR: star name must be one or more characters surrounded by quotes
+ERROR: target star not found
+END

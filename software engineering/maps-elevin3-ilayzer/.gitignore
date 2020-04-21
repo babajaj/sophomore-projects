@@ -1,0 +1,10 @@
+target/
+.mvn-classpath
+.classpath
+.idea/
+**.DS_Store**
+*.sqlite3
+!empty.sqlite3
+!malformed.sqlite3
+!noTraversable.sqlite3
+!someTraversable.sqlite3

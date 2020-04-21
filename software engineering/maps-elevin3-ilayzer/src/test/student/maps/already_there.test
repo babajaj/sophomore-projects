@@ -1,0 +1,9 @@
+INPUT
+map data/maps/smallMaps.sqlite3
+route 1 2 1 2
+route "Chihiro Ave" "Sootball Ln" "Chihiro Ave" "Sootball Ln"
+OUTPUT
+map set to data/maps/smallMaps.sqlite3
+You are already at your destination!
+You are already at your destination!
+END

@@ -1,0 +1,7 @@
+INPUT
+map data/maps/maps.sqlite3
+route 41.8230035 -71.399425 42.0426528 -71.8026814
+OUTPUT
+map set to data/maps/maps.sqlite3
+/n/4182.7139.1959958599 -/- /n/4204.7180.326568494
+END

@@ -1,0 +1,7 @@
+INPUT
+neighbors 0 0 0 0
+radius 0 0 0 0
+OUTPUT
+ERROR: stars not loaded. Please use command Stars <filename> to load stars
+ERROR: stars not loaded. Please use command Stars <filename> to load stars
+END

@@ -1,0 +1,14 @@
+INPUT
+stars data/stars/tester-stars.csv
+radius 15 "zero"
+OUTPUT
+Read 17 stars from data/stars/tester-stars.csv
+1
+2
+3
+4
+5
+6
+7
+8
+END

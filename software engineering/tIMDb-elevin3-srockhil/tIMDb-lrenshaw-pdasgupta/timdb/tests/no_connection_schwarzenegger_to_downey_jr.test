@@ -1,0 +1,7 @@
+INPUT
+mdb data/timdb/smallTimdb.sqlite3
+connect "Arnold Schwarzenegger" "Robert Downey Jr."
+OUTPUT
+db set to data/timdb/smallTimdb.sqlite3
+Arnold Schwarzenegger -/- Robert Downey Jr.
+END

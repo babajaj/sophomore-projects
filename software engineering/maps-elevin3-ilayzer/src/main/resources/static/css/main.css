@@ -1,0 +1,31 @@
+input[type="number"] {
+  width: 10em;
+}
+
+body {
+  background-image: "/css/Hollywood.jpg";
+}
+
+html {
+  font-family: "SansSerif";
+}
+html {
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+#siteHeader {
+  height: 50px;
+  background-color: grey;
+  display: flex;
+}
+
+.buttonWrapper {
+  font-size: 30px;
+  margin: auto;
+}
+
+.headerButton:hover {
+  font-weight: 800;
+}

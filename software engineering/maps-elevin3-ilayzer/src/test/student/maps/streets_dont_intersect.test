@@ -1,0 +1,14 @@
+INPUT
+route "Radish Spirit Blvd" "Sootball Ln" "Chihiro Ave" "Sootball Ln"
+route "Chihiro Ave" "Sootball Ln" "Radish Spirit Blvd" "Sootball Ln"
+route "Fake Name" "Sootball Ln" "Chihiro Ave" "Sootball Ln"
+route "Sootball Ln" "Fake name" "Chihiro Ave" "Sootball Ln"
+route "Fake Name" "Sootball Ln" "Radish Spirit Blvd" "fake name"
+OUTPUT
+ERROR: street/cross street pairs must intersect and the streets must be in the database, and must be inputted in quotes
+ERROR: street/cross street pairs must intersect and the streets must be in the database, and must be inputted in quotes
+ERROR: street/cross street pairs must intersect and the streets must be in the database, and must be inputted in quotes
+ERROR: street/cross street pairs must intersect and the streets must be in the database, and must be inputted in quotes
+ERROR: street/cross street pairs must intersect and the streets must be in the database, and must be inputted in quotes
+END
+

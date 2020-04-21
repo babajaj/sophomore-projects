@@ -1,0 +1,7 @@
+INPUT
+map data/maps/smallMap.sqlite3 oops
+map fdsfad
+OUTPUT
+ERROR: map takes one argument. Usage: 'map <path/to/db>'.
+ERROR: map database file malformed or does not exist.
+END

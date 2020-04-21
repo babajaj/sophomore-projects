@@ -1,0 +1,42 @@
+#headerWrapper {
+    background-color: white;
+    border-style: groove;
+}
+
+#childrenBlock {
+    background-color: white;
+    width: 50%;
+    border-style: groove;
+}
+
+#childrenHeaderWrapper {
+    margin: auto;
+}
+
+
+
+#childrenListWrapper {
+    margin: auto;
+}
+
+h {
+    margin: auto;
+    color: black;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 60px;
+    margin: 0;
+    color: black;
+}
+
+a:hover {
+    font-weight: 800;
+}
+
+body {
+    font-family: "American Typewriter";
+    background-image: url("Hollywood.jpg");
+}

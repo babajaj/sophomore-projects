@@ -1,0 +1,7 @@
+INPUT
+stars data/stars/three-star.csv
+radius -5 4 3 1
+OUTPUT
+Read 3 stars from data/stars/three-star.csv
+ERROR: argument 'radius' must be a positive number, but found negative number
+END

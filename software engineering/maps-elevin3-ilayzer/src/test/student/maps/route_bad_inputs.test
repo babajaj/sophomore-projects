@@ -1,0 +1,35 @@
+INPUT
+route 10 10 10 10
+map data/maps/smallMaps.sqlite3
+route 1
+route 1 2 3 4 5
+route "1" "2" "3"
+route 1 2 3 "4
+route 1 2 "3 "4
+route 1 "2 "3 "4
+route "1 "2 "3 "4
+route 1" 2" 3" 4"
+route "1" "2 "3 "4  --> this one is invalid command
+route "s 1" "c s" "s 1"
+route "1" "2 "3" "4" --> invalid
+route "1 "2" "3 "4" --> inv
+route "s 1" "c s 1" "c" "4 --> inv
+route 1 2 3 4.4.4
+OUTPUT
+ERROR: must load a database before using 'route' command
+map set to data/maps/smallMaps.sqlite3
+ERROR: command 'route' must have 5 arguments, in the form: "route <lat1> <lon1> <lat2> <lon2>" OR in the form "route "Street 1" "Cross-street 1" "Street 2" "Cross-street 2""
+ERROR: command 'route' must have 5 arguments, in the form: "route <lat1> <lon1> <lat2> <lon2>" OR in the form "route "Street 1" "Cross-street 1" "Street 2" "Cross-street 2""
+ERROR: command 'route' must have 5 arguments, in the form: "route <lat1> <lon1> <lat2> <lon2>" OR in the form "route "Street 1" "Cross-street 1" "Street 2" "Cross-street 2""
+ERROR: command 'route' must have 5 arguments, in the form: "route <lat1> <lon1> <lat2> <lon2>" OR in the form "route "Street 1" "Cross-street 1" "Street 2" "Cross-street 2""
+ERROR: command 'route' must have 5 arguments, in the form: "route <lat1> <lon1> <lat2> <lon2>" OR in the form "route "Street 1" "Cross-street 1" "Street 2" "Cross-street 2""
+ERROR: command 'route' must have 5 arguments, in the form: "route <lat1> <lon1> <lat2> <lon2>" OR in the form "route "Street 1" "Cross-street 1" "Street 2" "Cross-street 2""
+ERROR: command 'route' must have 5 arguments, in the form: "route <lat1> <lon1> <lat2> <lon2>" OR in the form "route "Street 1" "Cross-street 1" "Street 2" "Cross-street 2""
+ERROR: command 'route' must have 5 arguments, in the form: "route <lat1> <lon1> <lat2> <lon2>" OR in the form "route "Street 1" "Cross-street 1" "Street 2" "Cross-street 2""
+ERROR: command 'route' must have 5 arguments, in the form: "route <lat1> <lon1> <lat2> <lon2>" OR in the form "route "Street 1" "Cross-street 1" "Street 2" "Cross-street 2""
+ERROR: Invalid command.
+ERROR: Invalid command.
+ERROR: Invalid command.
+ERROR: Invalid command.
+ERROR: arguments must be valid lat and lon coordinates
+END

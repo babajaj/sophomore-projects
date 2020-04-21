@@ -1,0 +1,7 @@
+INPUT
+stars data/stars/ten-star.csv
+neighbors -4 "Proxima Centauri"
+OUTPUT
+Read 10 stars from data/stars/ten-star.csv
+ERROR: argument 'k' must be a positive integer, but found negative integer
+END

@@ -1,0 +1,9 @@
+INPUT
+mdb data/timdb/smallTimdb.sqlite3
+connect "Samuel L. Jackson" "Sylvester Stallone"
+OUTPUT
+db set to data/timdb/smallTimdb.sqlite3
+Samuel L. Jackson -> John Travolta : Pulp Fiction
+John Travolta -> Tony Shalhoub : Primary Colors
+Tony Shalhoub -> Sylvester Stallone : Men in Black
+END

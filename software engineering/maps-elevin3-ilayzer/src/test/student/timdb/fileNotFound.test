@@ -1,0 +1,5 @@
+INPUT
+mdb data/timdb/
+OUTPUT
+ERROR: File 'data/timdb' not found.
+END

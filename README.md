@@ -6,7 +6,6 @@ These are the latest projects I have worked on this semester, and they are divid
 - Computer Vision: implementations of one or more vision algorithms/ideas
     - final project: Video Style Transfer --> style any video or image as your favorite painting!
 
-*Much of this is from earlier in the semester.
 
 *None of this code will run as I took out the data files required to run them.
 

@@ -1,5 +1,0 @@
-INPUT
-connect "instant pot" "food processor"
-OUTPUT
-ERROR:
-END

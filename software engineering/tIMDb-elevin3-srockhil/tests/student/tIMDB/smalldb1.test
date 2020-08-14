@@ -1,7 +1,0 @@
-INPUT
-mdb data/timdb/smallTimdb.sqlite3
-connect "Tony Shalhoub" "Sylvester Stallone"
-OUTPUT
-db set to data/timdb/smallTimdb.sqlite3
-Tony Shalhoub -> Sylvester Stallone : Men in Black
-END

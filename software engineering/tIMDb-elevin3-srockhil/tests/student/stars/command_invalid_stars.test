@@ -1,9 +1,0 @@
-INPUT
-stars data/invalid-body.csv
-neighbors 0 0 0 0
-radius 0 0 0 0
-OUTPUT
-ERROR: file not found.
-ERROR: stars not loaded. Please use command Stars <filename> to load stars
-ERROR: stars not loaded. Please use command Stars <filename> to load stars
-END

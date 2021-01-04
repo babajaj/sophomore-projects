@@ -1,4 +1,4 @@
-These are the latest projects I have worked on this semester, and they are divided into two parts:
+These are my favorite projects I worked on this semester, and they are divided into two parts:
 
 - Software Engineering: larger-scale software projects, usually pair-programmed.
     - final project: What's in my fridge: www.whatsinmyfridgeco.com --> a personalized website that suggests recipes for you based on user ingredients.
